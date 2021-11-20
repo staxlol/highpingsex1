@@ -5,12 +5,12 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
- Title = "poopie assist V1";
+ Title = "High Ping V1";
  Text = "made by Stax & Conviction ";
  Icon = "";
  Duration = 9999999999;
- Button1 = "pp";
- Button2 = "poop";
+ Button1 = "sex";
+ Button2 = "high";
  Callback = NotificationBindable;
 })
 
@@ -22,7 +22,7 @@ local LocalPlayer = Players.LocalPlayer
 local accomidationfactor = 0.12
 
 -- // Silent Aim Module
-local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/staxlol/Adjust/main/Adjust"))()
+local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/staxlol/highpingsex/main/Adjust"))()
 SilentAim.TeamCheck = false
 -- // Metatable vars
 local mt = getrawmetatable(game)
