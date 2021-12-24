@@ -22,7 +22,7 @@ local LocalPlayer = Players.LocalPlayer
 local accomidationfactor = 0.12
 
 -- // Silent Aim Module
-local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/staxlol/Adjust/main/Adjust%22))()
+local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/staxlol/highpingsex1/main/highpingcuh"))()
 SilentAim.TeamCheck = false
 -- // Metatable vars
 local mt = getrawmetatable(game)
