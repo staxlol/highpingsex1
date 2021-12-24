@@ -22,11 +22,11 @@ local LocalPlayer = Players.LocalPlayer
 local accomidationfactor = 0.12
 
 -- // Silent Aim Module
-local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/staxlol/highpingsex1/main/highpingcuh"))()
+local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/staxlol/Adjust/main/Adjust%22))()
 SilentAim.TeamCheck = false
 -- // Metatable vars
 local mt = getrawmetatable(game)
-local backupindex = mt.__index
+local backupindex = mt.index
 setreadonly(mt, false)
 
 -- // Check if player is down
@@ -39,7 +39,7 @@ SilentAim.checkSilentAim = function()
 end
 
 -- // Hook
-mt.__index = newcclosure(function(t, k)
+mt.index = newcclosure(function(t, k)
     if (t:IsA("Mouse") and (k == "Hit")) then
         local CPlayer = SilentAim.Selected
         if (SilentAim.checkSilentAim()) then
@@ -55,7 +55,7 @@ end)
 setreadonly(mt, true)
 
 ModIDS = {
-
+    
 
 
 }
@@ -82,4 +82,4 @@ function starnames()
     end
 end
 local success,err = pcall(starnames)
-return ModIDS
+return ModIDS 
