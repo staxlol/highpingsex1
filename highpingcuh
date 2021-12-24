@@ -5,7 +5,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
- Title = "nvs lock";
+ Title = "i hate niggers";
  Text = "made by Stax & Conviction ";
  Icon = "";
  Duration = 9999999999;
